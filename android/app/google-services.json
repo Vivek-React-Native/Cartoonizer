@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "900908180843",
+    "project_id": "cartoonizer-e0f16",
+    "storage_bucket": "cartoonizer-e0f16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900908180843:android:4a33967ce7625d062d582e",
+        "android_client_info": {
+          "package_name": "com.cartoonizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900908180843-236etc7pk6le2a2bbh8241hgvrh9gtur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cartoonizer",
+            "certificate_hash": "0a6428d02c3721f11cde54b17fa3d58fba733d86"
+          }
+        },
+        {
+          "client_id": "900908180843-16lttvg2vb6f9v32h97jus57facg4hrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABxN4bhf3OU0yWXJ6I9fX8s8XxpjXnKPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900908180843-16lttvg2vb6f9v32h97jus57facg4hrc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "900908180843-0ohot6mc9rdmpb3j6rakr0jknnhnsp8s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Cartoonizer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
