@@ -5,8 +5,6 @@ import {
   Platform,
   ScrollView,
   StyleSheet,
-  Text,
-  TextInput,
   TouchableOpacity,
   useColorScheme,
   View,
@@ -31,7 +29,7 @@ import { routeForgotPassword } from './ForgotPassword';
 import { routeSignup } from './Signup';
 import auth from '@react-native-firebase/auth';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
-import { LoginManager, AccessToken, Settings } from 'react-native-fbsdk-next';
+import { LoginManager, AccessToken } from 'react-native-fbsdk-next';
 import { routeHome } from './Home';
 import { useTheme } from '@react-navigation/native';
 
@@ -50,12 +48,11 @@ const Login = props => {
   const [Loading, setLoading] = useState(false);
 
   useEffect(() => {
+    // Settings.setAppID('322811259776814');
     GoogleSignin.configure({
       webClientId:
         '900908180843-16lttvg2vb6f9v32h97jus57facg4hrc.apps.googleusercontent.com',
     });
-    Settings.setAppID('322811259776814');
-    Settings.initializeSDK();
   }, []);
 
   const LogInWithDATA = [
